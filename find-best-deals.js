@@ -7,7 +7,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
  * Programmatically finds property deals and exports to CSV (Excel).
  */
 
-const GEMINI_API_KEY = "AIzaSyDduZXKDfu4qkAFd68vNgjYDlTNy5wFCCA"; // From your .env
+const GEMINI_API_KEY = ""; // From your .env
 
 async function getBestDeals() {
   console.log('--- 🚀 Programmatically Finding "Best Deals" ---');
