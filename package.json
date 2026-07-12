@@ -1,15 +1,24 @@
 {
-  "name": "property-finder",
+  "name": "property-screening-pipeline",
   "version": "1.0.0",
-  "description": "",
-  "main": "find-properties.js",
+  "description": "API-driven property screening and optional LLM ranking pipeline.",
+  "main": "find-best-deals.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "screen": "node find-best-deals.js",
+    "test": "node --test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "data-pipeline",
+    "real-estate",
+    "api",
+    "csv",
+    "gemini"
+  ],
+  "author": "Amru Alrayyis",
+  "license": "MIT",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "axios": "^1.16.1",
     "cheerio": "^1.2.0",
     "csv-parser": "^3.2.1",
