@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+node_modules/
+posts/
+*.log
+littlniss-deals-log.csv
+posted-items.json
+.DS_Store
+Thumbs.db
